@@ -1,51 +1,94 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 
 body {
-    font-family: "Hanken Grotesk";
+  font-family: "Hanken Grotesk";
 }
 
-#med-nav {
-    font-family: "Hanken Grotesk" !important;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: white !important;
-    background-color: white;
-}
-.nav-item a {
-    color: white;
-}
-.nav-item a:hover {
-    color: wheat;
-}
-.navbar {
-    padding: 13% 0;
-}
-
-.navbar-text img {
-    width: 200px;
-}
-
-#introimg img {
-    width: 1rem;
-}
-
-.collection {
-    background-color: rgb(32, 32, 32);
-}
-
-.cards a img {
-    width: 100%;
-}
-
-h1,h2 {
-    font-family: "Hanken Grotesk";
-    font-weight: 800;
-    font-size: 3rem;
+h1,
+h2 {
+  font-family: "Hanken Grotesk";
+  font-weight: 800;
+  font-size: 3rem;
 }
 
 h2 {
-    
-    color: #e8f500;
+  color: #e8f500;
 }
+
+div .textheader {
+    background-color: #1f1f1f;
+    color: #e8f500;
+    padding: 3% 0;
+}
+
+/*------NAVBAR-------*/
+#med-nav {
+  font-family: "Hanken Grotesk" !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white !important;
+  background-color: white;
+}
+.nav-item a {
+  color: white;
+}
+.nav-item a:hover {
+  color: wheat;
+}
+.navbar {
+  padding: 13% 0;
+}
+
+.navbar-text img {
+  width: 200px;
+}
+
+/*------HOMEPAGE STYLING-------*/
+#introimg img {
+  width: 1rem;
+}
+
+.collection {
+  background-color: rgb(32, 32, 32);
+}
+
+.cards a img {
+  width: 100%;
+}
+
 /*color:e8f500*/
 
+/*------FIGURES-------*/
+#products {
+  border: solid thin gray;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+#products figcaption {
+  color: black;
+  font-family: "Hanken Grotesk";
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  margin: 0 1rem;
+}
+figure p {
+  font-family: "Hanken Grotesk";
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #1f1f1f;
+  margin: 0 1rem;
+}
+#buttons {
+  background-color: #e8f500 !important;
+  color: #1f1f1f;
+  font-weight: 800;
+  border: solid thin black;
+  margin: 0 1rem;
+}
+
+#buttons:hover {
+  background-color: #1f1f1f !important;
+  color: #e8f500;
+  transition: 0.3s;
+}
