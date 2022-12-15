@@ -18,11 +18,25 @@ body {
     color: wheat;
 }
 .navbar {
-    padding: 10% 0;
+    padding: 13% 0;
 }
 
 .navbar-text img {
     width: 200px;
 }
 
+#introimg img {
+    width: 1rem;
+}
+
+.collection {
+    background-color: rgb(32, 32, 32);
+}
+
+h1 {
+    font-family: "Hanken Grotesk";
+    font-weight: 800;
+    font-size: 3rem;
+}
+/*color:e8f500*/
 
