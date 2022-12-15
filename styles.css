@@ -3,9 +3,26 @@
 body {
     font-family: "Hanken Grotesk";
 }
-a .nav-link {
-    font-family: 'Times New Roman', Times, serif !important;
+
+#med-nav {
+    font-family: "Hanken Grotesk" !important;
     font-weight: 700;
+    font-size: 1.5rem;
+    color: white !important;
+    background-color: white;
+}
+.nav-item a {
     color: white;
 }
+.nav-item a:hover {
+    color: wheat;
+}
+.navbar {
+    padding: 10% 0;
+}
+
+.navbar-text img {
+    width: 200px;
+}
+
 
