@@ -92,3 +92,15 @@ figure p {
   color: #e8f500;
   transition: 0.3s;
 }
+
+/*------CONTACT PAGE-------*/
+
+.contactimg {
+  width: 40%;
+}
+
+div .contacthead {
+  font-size: 4rem;
+  margin-top: 40% !important;
+  margin-left: 30% !important;
+}
